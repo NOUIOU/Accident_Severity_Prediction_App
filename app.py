@@ -11,8 +11,8 @@ import matplotlib
 matplotlib.use('Agg')
 
 # Load the model and encoder object
-model = joblib.load("./rta_model_deploy3.joblib")
-encoder = joblib.load("./ordinal_encoder2.joblib")
+model = joblib.load("rta_model_deploy3.joblib")
+encoder = joblib.load("ordinal_encoder2.joblib")
 
 # Set up the Streamlit page settings
 st.set_option('deprecation.showPyplotGlobalUse', False)
